@@ -20,8 +20,6 @@ AYLAR= ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","E
 GUNLER= ["pazartesi","salı","çarşamba","perşembe","cuma","cumartesi","pazar"]
 GUN_UZANTILARI=["inci","nci","üncü","ıncı","uncu"]
 
-def clear():
-    clear_output()
 
 def speak(text):
     tts=gTTS(text=text, lang="tr")
