@@ -165,12 +165,12 @@ def yazma(text):
 UYANDIRMA= "hey bilgisayar"
 SERVICE = google_onay()
 print("Hazır")
-#!!!!!!!!!!!!!!!!BURASI ÖNEMLİ ALGILADIĞINI TEXTE ÇEVİRİYOR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
 while True:
     print("Dinliyorum")
+    #!!!!!!!!!!!!!!!!BURASI ÖNEMLİ ALGILADIĞINI TEXTE ÇEVİRİYOR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     text = get_audio().lower()
     if text.count(UYANDIRMA)>0:
         speak("Efendim ")
